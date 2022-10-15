@@ -1,0 +1,32 @@
+[
+  {
+    "name": "1ª RODADA",
+    "stadium": {
+      "name": "LUSAIL",
+      "image": "TODO"
+    },
+    "team1": "BR",
+    "team2": "RS",
+    "date": "2022-11-24T13:00:00Z"
+  },
+  {
+    "name": "2ª RODADA",
+    "stadium": {
+      "name": "ESTÁDIO 974",
+      "image": "TODO"
+    },
+    "team1": "BR",
+    "team2": "CH",
+    "date": "2022-11-28T10:00:00Z"
+  },
+  {
+    "name": "3ª RODADA",
+    "stadium": {
+      "name": "LUSAIL",
+      "image": "TODO"
+    },
+    "team1": "CM",
+    "team2": "BR",
+    "date": "2022-12-02T13:00:00Z"
+  }
+]
