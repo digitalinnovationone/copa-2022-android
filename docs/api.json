@@ -3,7 +3,7 @@
     "name": "1ª RODADA",
     "stadium": {
       "name": "LUSAIL",
-      "image": "TODO"
+      "image": "https://digitalinnovationone.github.io/copa-2022-android/statics/lusali-stadium.png"
     },
     "team1": "BR",
     "team2": "RS",
@@ -13,7 +13,7 @@
     "name": "2ª RODADA",
     "stadium": {
       "name": "ESTÁDIO 974",
-      "image": "TODO"
+      "image": "https://digitalinnovationone.github.io/copa-2022-android/statics/974-stadium.png"
     },
     "team1": "BR",
     "team2": "CH",
@@ -22,7 +22,7 @@
   {
     "name": "3ª RODADA",
     "stadium": {
-      "name": "LUSAIL",
+      "name": "https://digitalinnovationone.github.io/copa-2022-android/statics/lusali-stadium.png",
       "image": "TODO"
     },
     "team1": "CM",
