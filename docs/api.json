@@ -22,8 +22,8 @@
   {
     "name": "3ª RODADA",
     "stadium": {
-      "name": "https://digitalinnovationone.github.io/copa-2022-android/statics/lusali-stadium.png",
-      "image": "TODO"
+      "name": "LUSAIL",
+      "image": "https://digitalinnovationone.github.io/copa-2022-android/statics/lusali-stadium.png"
     },
     "team1": "CM",
     "team2": "BR",
