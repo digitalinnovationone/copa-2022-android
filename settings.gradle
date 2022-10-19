@@ -14,3 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Copa 2022"
 include ':app'
+include ':domain'
+include ':data:data'
+include ':data:remote'
+include ':data:local'
+include ':notification-scheduler'
