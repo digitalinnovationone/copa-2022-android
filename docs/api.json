@@ -28,5 +28,25 @@
     "team1": "CM",
     "team2": "BR",
     "date": "2022-12-02T19:00:00Z"
+  },
+  {
+    "name": "Semi Final",
+    "stadium": {
+      "name": "LUSAIL",
+      "image": "https://digitalinnovationone.github.io/copa-2022-android/statics/lusali-stadium.png"
+    },
+    "team1": "BR",
+    "team2": "AR",
+    "date": "2022-10-20T02:08:00Z"
+  },
+  {
+    "name": "FINAL",
+    "stadium": {
+      "name": "LUSAIL",
+      "image": "https://digitalinnovationone.github.io/copa-2022-android/statics/lusali-stadium.png"
+    },
+    "team1": "BR",
+    "team2": "FR",
+    "date": "2022-10-20T02:14:00Z"
   }
 ]
