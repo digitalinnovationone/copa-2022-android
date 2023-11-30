@@ -24,10 +24,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import me.dio.copa.catar.R
 import me.dio.copa.catar.domain.extensions.getDate
+import me.dio.copa.catar.domain.model.Match
 import me.dio.copa.catar.domain.model.MatchDomain
 import me.dio.copa.catar.domain.model.TeamDomain
 import me.dio.copa.catar.ui.theme.Shapes
@@ -137,4 +139,19 @@ fun TeamItem(team: TeamDomain) {
             style = MaterialTheme.typography.h6.copy(color = Color.White)
         )
     }
+}
+
+@Preview(
+    showSystemUi = true,
+    showBackground = true,
+    backgroundColor = 0xFFAC1B1B)
+@Composable
+fun Preview() {
+    MainScreen(Match.DUMB_LIST) {}
+}
+
+@Preview()
+@Composable
+fun PreviewMatchInfo() {
+    MatchInfo(match = Match.DUMB_MATCH, onNotificationClick = {})
 }
