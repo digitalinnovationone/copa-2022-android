@@ -3,30 +3,50 @@
     "name": "1ª RODADA",
     "stadium": {
       "name": "LUSAIL",
-      "image": "https://digitalinnovationone.github.io/copa-2022-android/statics/lusali-stadium.png"
+      "image": "https://digitalinnovationone.github.io/copa-2023-android/statics/lusali-stadium.png"
     },
     "team1": "BR",
     "team2": "RS",
-    "date": "2022-11-24T19:00:00Z"
+    "date": "2023-11-24T19:00:00Z"
   },
   {
     "name": "2ª RODADA",
     "stadium": {
       "name": "ESTÁDIO 974",
-      "image": "https://digitalinnovationone.github.io/copa-2022-android/statics/974-stadium.png"
+      "image": "https://digitalinnovationone.github.io/copa-2023-android/statics/974-stadium.png"
     },
     "team1": "BR",
     "team2": "CH",
-    "date": "2022-11-28T16:00:00Z"
+    "date": "2023-11-28T16:00:00Z"
   },
   {
     "name": "3ª RODADA",
     "stadium": {
       "name": "LUSAIL",
-      "image": "https://digitalinnovationone.github.io/copa-2022-android/statics/lusali-stadium.png"
+      "image": "https://digitalinnovationone.github.io/copa-2023-android/statics/lusali-stadium.png"
     },
     "team1": "CM",
     "team2": "BR",
-    "date": "2022-12-02T19:00:00Z"
-  }
+    "date": "2023-12-02T19:00:00Z"
+  },
+  {
+    "name": "Semi Final",
+    "stadium": {
+      "name": "LUSAIL",
+      "image": "https://digitalinnovationone.github.io/copa-2023-android/statics/lusali-stadium.png"
+    },
+    "team1": "BR",
+    "team2": "AR",
+    "date": "2023-10-20T02:07:00Z"
+  },
+  {
+    "name": "FINAL",
+    "stadium": {
+      "name": "LUSAIL",
+      "image": "https://digitalinnovationone.github.io/copa-2023-android/statics/lusali-stadium.png"
+    },
+    "team1": "BR",
+    "team2": "FR",
+    "date": "2023-10-20T02:12:00Z"
+  },
 ]
