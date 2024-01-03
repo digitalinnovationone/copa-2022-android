@@ -8,6 +8,8 @@ import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
+//duas back prophets - state e action
+
 abstract class BaseViewModel<UiState, UiAction>(initialState: UiState) : ViewModel() {
 
     private val _state = MutableStateFlow(initialState)
@@ -19,6 +21,7 @@ abstract class BaseViewModel<UiState, UiAction>(initialState: UiState) : ViewMod
     val stateValue: UiState
         get() = state.value
 
+    //settar valor
     protected fun setState(block: UiState.() -> UiState) {
         _state.value = _state.value.block()
     }
