@@ -27,6 +27,7 @@ private fun Date.toLocalDateTime(): LocalDateTime {
     return toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime()
 }
 
+//transformar para um objeto comum da aplicação
 private fun String.toTeam(): Team {
     return Team(
         flag = getTeamFlag(this),

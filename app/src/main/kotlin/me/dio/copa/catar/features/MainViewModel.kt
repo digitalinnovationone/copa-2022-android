@@ -41,7 +41,7 @@ class MainViewModel @Inject constructor(
             }.collect {
                 //pegar lista de dentro do flow
                 setState {
-                    copy(matches = matches)
+                    copy(matches = it)
                 }
             }
     }
