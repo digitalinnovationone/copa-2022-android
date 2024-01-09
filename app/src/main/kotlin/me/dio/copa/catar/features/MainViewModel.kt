@@ -9,6 +9,7 @@ import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.launch
 import me.dio.copa.catar.core.BaseViewModel
+import me.dio.copa.catar.domain.model.Match
 import me.dio.copa.catar.domain.model.MatchDomain
 import me.dio.copa.catar.remote.UnexpectedException
 import me.dio.copa.catar.use_case.GetMatchesUseCase
@@ -45,6 +46,10 @@ class MainViewModel @Inject constructor(
                 }
             }
     }
+    fun toggleNotification(match: Match) {
+        //TODO
+    }
+
 }
 
 //mostrar nossa lista - estado inicial -> lista vazia -> não tem processamento de dados
