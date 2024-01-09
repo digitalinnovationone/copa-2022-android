@@ -20,6 +20,8 @@ fun MatchRemote.toDomain(): MatchDomain {
         team2 = team2.toTeam(),
         stadium = stadium.toDomain(),
         date = date.toLocalDateTime(),
+      // date = LocalDateTime.now().plusMinutes(5)
+       // date = LocalDateTime.of()
     )
 }
 
@@ -27,6 +29,7 @@ private fun Date.toLocalDateTime(): LocalDateTime {
     return toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime()
 }
 
+//transformar para um objeto comum da aplicação
 private fun String.toTeam(): Team {
     return Team(
         flag = getTeamFlag(this),
